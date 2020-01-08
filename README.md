@@ -3,7 +3,6 @@
 Tools used: React, SASS, Javascript.
 This is working Clock with analog and digital display.
 
-
 ## Instructions:
  1. Clone the git repo.
  2. Go the directory folder and run `npm install`.

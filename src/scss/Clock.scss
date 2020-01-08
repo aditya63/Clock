@@ -1,0 +1,42 @@
+@import "../utilities/variables.scss";
+
+.clock-panel {
+  min-height:450px;
+  min-width: 720px;
+  background-color: $primary-color;
+  color: $primary-color;
+  border-radius: 15px;
+  display: flex;
+  height: 100%;
+
+  @media screen and (max-width: $max-device-width) {
+    border-radius:0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  > section {
+    width: 50%;
+    margin: 48px 20px;
+    background-color: $secondary-color;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 15px;
+
+
+    @media screen and (max-width: $max-device-width) {
+      min-width: 80%;
+    }
+  }
+
+  @media screen and (max-width: $max-device-width) {
+    .analog {
+      display: none;
+      min-height: 100vh;
+    }
+  }
+}

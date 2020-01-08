@@ -1,0 +1,20 @@
+@import "../utilities/variables.scss";
+
+.digital-clock {
+  padding: 10px;
+  margin-top: 45px;
+
+  .time {
+    font-size: 80px;
+  }
+
+  .ampm {
+    font-size: 20px;
+  }
+
+  .seconds {
+    font-size: 160px;
+    font-weight: 600;
+  }
+
+}
